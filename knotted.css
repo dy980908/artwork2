@@ -82,13 +82,13 @@ header {
   color: #ee9dc2;
 }
 /* gnb e */
-.title_box{
+#title_box{
   width: 1320px;
   margin: 0 auto;
   position: relative;
   padding: 40px 0;
 }
-.title_box h1{
+#title_box h1{
   color: #222;
   margin-bottom: 20px;
 }
@@ -181,7 +181,7 @@ header {
   .gnb li {
     padding: 15px 30px;
   }
-  .title_box {
+  #title_box {
     width: 90%;
     margin: 0 auto;
   }
@@ -217,10 +217,10 @@ header {
   .gnb li {
     padding: 12px 20px;
   }
-  .title_box h1 {
+  #title_box h1 {
     font-size: 2rem;
   }
-  .title_box p {
+  #title_box p {
     font-size: 0.95rem;
   }
 }
@@ -251,16 +251,16 @@ header {
   .gnb li {
     padding: 10px 20px;
   }
-  .title_box h1 {
+  #title_box h1 {
     font-size: 1.8rem;
     text-align: center;
   }
-  .title_box .title {
+  #title_box .title {
     justify-content: center;
     display: flex;
     gap: 8px;
   }
-  .title_box p {
+  #title_box p {
     text-align: center;
     font-size: 0.9rem;
   }
@@ -324,10 +324,10 @@ header {
   .gnb li a {
     font-size: 12px;
   }
-  .title_box h1 {
+  #title_box h1 {
     font-size: 1.5rem;
   }
-  .title_box p {
+  #title_box p {
     font-size: 0.85rem;
   }
   .event {
