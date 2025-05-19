@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Artwork_Knotted</title>
+  <link rel="stylesheet" href="./knotted.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="https://dy980908.github.io/artwork1/">
+        <img src="./images/artlogo2.png" alt=""></a>
+    </div>
+  </header>
+  <!-- header e -->
+
+  <div id="wrapper">
+    <div class="wrap">
+    <h3><a href="javascript:return false;">Event</a></h3>    
+    <h1>🍓노티드 생딸기파티 사전예약🍓</h1>
+    </div>
+  </div>
+    <!-- 상단 e -->
+     <div class="container">
+      <div class="image-section">
+        <img src="./images/art4.png" alt="">
+        <img src="./images/art5.png" alt="">        
+      </div>
+  <!-- 상세페이지 e -->
+   <a class="top" href="#wrapper"><img src="./images/arttop.png" alt=""></a>
+   
+
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script>
+    $(function () {
+      $('a[href*="#"]:not([href="#"])').click(function () {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 500);//움직이는 시간 조정
+            return false;
+          }
+        }
+      });
+    });
+  </script>
+  <!--이동시 부드럽게 이동-->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+</body>
+</html>
